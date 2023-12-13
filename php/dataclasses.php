@@ -82,30 +82,4 @@
             }
 
         }     
-
-// from the basis pero need palitan HAHAHAH so tentative muna ito:
-
-        // class Offices {
-        //     private $officeID;
-        //     private $officeName;
-        //     private $officeEmail;
-        
-        //     public function __construct($officeID, $officeName, $officeEmail) {
-        //         $this->officeID = $officeID;
-        //         $this->officeName = $officeName;
-        //         $this->officeEmail = $officeEmail;
-        //     }
-        
-        //     public function get_officeID() {
-        //         return $this->officeID;
-        //     }
-        
-        //     public function get_officeName() {
-        //         return $this->officeName;
-        //     }
-        
-        //     public function get_officeEmail() {
-        //         return $this->officeEmail;
-        //     }
-        // }    
 ?>
