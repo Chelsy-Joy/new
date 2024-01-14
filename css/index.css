@@ -17,13 +17,13 @@
 
 body{
     font-family: var(--primary-font-family);
-    font-size: 14px;
+    font-size: rem;
     
 }
 
 .div-login{
-    width: 400px;
-    height: 400px;
+    width: 90%; /* Use percentage for responsive width */
+    height: 90%; /* Use percentage for responsive height */
     background-color: var(--blue);
     position: absolute;
     left: 0;
@@ -36,7 +36,14 @@ body{
     overflow: auto;
     padding: 1em 2em;
     display: table;
+}
 
+/* Media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    .div-login{
+        width: 100%; /* Full width on small screens */
+        height: 100%; /* Full height on small screens */
+    }
 }
 
 .wrapper .logo img{ 
